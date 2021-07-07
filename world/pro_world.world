@@ -1,0 +1,822 @@
+<sdf version='1.6'>
+  <world name='default'>
+      <include>
+        <uri>model://sun</uri>
+      </include>
+      <include>
+        <uri>model://ground_plane</uri>
+      </include>
+    <model name="my_wall">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall1">
+    <static>true</static>
+    <link name="link">
+      <pose>-2 0 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall2">
+    <static>true</static>
+    <link name="link">
+      <pose>-4 0 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall3">
+    <static>true</static>
+    <link name="link">
+      <pose>-5.5 0 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall4">
+    <static>true</static>
+    <link name="link">
+      <pose>0 1 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall5">
+    <static>true</static>
+    <link name="link">
+      <pose>-2 1 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall6">
+    <static>true</static>
+    <link name="link">
+      <pose>-4 1 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall7">
+    <static>true</static>
+    <link name="link">
+      <pose>-6 1 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall8">
+    <static>true</static>
+    <link name="link">
+      <pose>-5 2 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall9">
+    <static>true</static>
+    <link name="link">
+      <pose>-6 3 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall10">
+    <static>true</static>
+    <link name="link">
+      <pose>-5 3.5 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall11">
+    <static>true</static>
+    <link name="link">
+      <pose>0 5 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall12">
+    <static>true</static>
+    <link name="link">
+      <pose>-2 5 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall13">
+    <static>true</static>
+    <link name="link">
+      <pose>-4 5 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  
+  <model name="my_wall15">
+    <static>true</static>
+    <link name="link">
+      <pose>0 4 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall16">
+    <static>true</static>
+    <link name="link">
+      <pose>-2 4 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall17">
+    <static>true</static>
+    <link name="link">
+      <pose>-4 4 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall18">
+    <static>true</static>
+    <link name="link">
+      <pose>1 4.5 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model> 
+  <model name="my_wall19">
+    <static>true</static>
+    <link name="link">
+      <pose>-6 5 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model> 
+  <model name="my_wall20">
+    <static>true</static>
+    <link name="link">
+      <pose>-5 6 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model> 
+  <model name="my_wall21">
+    <static>true</static>
+    <link name="link">
+      <pose>-6 7 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model> 
+  <model name="my_wall22">
+    <static>true</static>
+    <link name="link">
+      <pose>-5 7.5 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model> 
+  
+  <model name="my_wall24">
+    <static>true</static>
+    <link name="link">
+      <pose>0 9 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall25">
+    <static>true</static>
+    <link name="link">
+      <pose>-2 9 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall26">
+    <static>true</static>
+    <link name="link">
+      <pose>-4 9 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall27">
+    <static>true</static>
+    <link name="link">
+      <pose>-5.5 9 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>1 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall28">
+    <static>true</static>
+    <link name="link">
+      <pose>0 8 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall29">
+    <static>true</static>
+    <link name="link">
+      <pose>-2 8 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall30">
+    <static>true</static>
+    <link name="link">
+      <pose>-4 8 0.5 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  <model name="my_wall31">
+    <static>true</static>
+    <link name="link">
+      <pose>-6 8 0.5 0 0 1.57</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>2 0.1 1</size>
+          </box>
+        </geometry>
+        <material> 
+          <ambient>1 1 0.1 1</ambient>
+          <diffuse>1 1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+  </world>
+</sdf>
